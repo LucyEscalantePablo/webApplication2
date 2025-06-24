@@ -28,12 +28,7 @@
         <h1>Hola desde el JSP!</h1>
         <h2>Bienvenido, ${nombreUsuario}</h2>
         
-        <%-- 
-        
-        <h2>Bienvenido, ${codigoUsuario}</h2>
-        <h2>Bienvenido, ${carreraUsuario}</h2>
-
-        
-        --%>
+        <h2>Tu código es: ${codigoUsuario}</h2>
+        <h2>Carrera: ${carreraUsuario}</h2>
     </body>
 </html>
